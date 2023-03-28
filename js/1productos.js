@@ -79,4 +79,9 @@ let listaProductos = [
   let filtro = listaProductos.filter((producto)=>producto.categoria.includes("Protector solar"))
   
   mostrararreglo(filtro,"lista filtrada")
-  
+  let encontrar = listaProductos.find((producto) => producto.nombreProducto.includes('Sérum'));
+let aux = [];
+aux.push(encontrar);
+//console.log(encontrar);
+console.log(aux);
+mostrararreglo(aux);

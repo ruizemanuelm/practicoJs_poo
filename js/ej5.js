@@ -121,7 +121,6 @@ const persona4=new Persona('ddd', 41, 44444444, 'M', 70, 1.73, 1982)
 const persona5=new Persona('eee', 26, 55555555, 'H', 75, 1.83, 1996)
 const persona6=new Persona('fff', 12, 66666666, 'm', 60, 1.60, 2011)
 
-
 persona5.mostrarGeneracion()
 persona6.esMayorDeEdad()
 persona5.esMayorDeEdad()

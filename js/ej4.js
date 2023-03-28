@@ -14,30 +14,31 @@ class Producto {
     };
     // metodos
     datos(){
+        document.write("<h3>producto</h3>")
         document.write("<ul>")
-        document.write("<li> codigo: "+this.codigo + "</li>")
-        document.write("<li> nombre: "+this.nombre + "</li>")
-        document.write("<li> precio: "+this.precio + "</li>")
+        document.write("<li> codigo: "+this.codigoo + "</li>")
+        document.write("<li> nombre: "+this.nombree + "</li>")
+        document.write("<li> precio: "+this.precioo + "</li>")
 
         document.write("</ul>")
     };
     
-    get codigo() {
+    get codigoo() {
         return this.#codigo
     } 
-    set codigo(nuevoCodigo) {
+    set codigoo(nuevoCodigo) {
         this.#codigo = nuevoCodigo
     }
-    get nombre() {
+    get nombree() {
         return this.#nombre
     } 
-    set nombre(nuevoNombre) {
+    set nombree(nuevoNombre) {
         this.#nombre = nuevoNombre
     }
-    get precio() {
+    get precioo() {
         return this.#precio
     } 
-    set precio(nuevoPrecio) {
+    set precioo(nuevoPrecio) {
         this.#precio = nuevoPrecio
     }
 }
@@ -48,4 +49,4 @@ const prod3=new Producto(3,"producto 3",3000)
 
 const listaProductos = [prod1,prod2,prod3]
 
-listaProductos.map(prod => document.write(prod.datos()+" - "))
+let mostrar = listaProductos.map(prod => prod.datos())

@@ -9,11 +9,11 @@ class Rectangulo {
     // metodos
     perimetro() {
     this.perimetro = 2*(this.alto+this.ancho);
-        document.write("<p> el perimetro del rectangulo ("+ this.id+ ") es "+ this.perimetro+"</p>");
+        document.write('<p> el perimetro del rectangulo ('+ this.id+ ') es '+ this.perimetro+'</p>');
 }
     area() {
     this.area = this.alto * this.ancho;
-    document.write("<p> el area del rectangulo ("+ this.id+ ") es "+ this.area +"</p>");
+    document.write('<p> el area del rectangulo ('+ this.id+ ') es '+ this.area +'</p>');
 }
 
 //propiedades computadas
