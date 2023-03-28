@@ -4,7 +4,7 @@ let cuenta = {
 
 ingresar: function(sumar) {
 cuenta.saldo = cuenta.saldo + sumar
-document.write("<h3>se ingresaron " + sumar+ " pesitos a tu cuenta 🤑</h3>")
+document.write("<h3>se ingresaron " +sumar+ " pesitos a tu cuenta 🤑</h3>")
   } ,
   extraer: function(restar) {
 cuenta.saldo = cuenta.saldo - restar
